@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Website</title>
+
+<style>
+body{
+    background-color: lightblue;
+    font-family: Cambria;
+    font-size: 14px;
+    text-align: center;
+}
+
+marquee{
+    color: blue;
+}
+
+button{
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.box{
+    background: white;
+    border: 2px solid blue;
+    padding: 20px;
+    color: blue;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Welcome to My Website</h1>
+
+<marquee>Welcome to My Website</marquee>
+
+<button>Click Here</button>
+
+<br><br>
+
+<div class="grid">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+</body>
+</html>
